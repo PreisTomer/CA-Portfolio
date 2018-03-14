@@ -72,6 +72,10 @@ $(document).ready(function () {
         var message = $('#message').val();
         var url = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${message}`;
         window.location = url;
+    });
+    $('.toggle-side-bar').on('click', function(e){
+        $('.offcanvas-aside').toggleClass("offcanvas-aside-open");
+        e.preventDefault();
     })
 });
 

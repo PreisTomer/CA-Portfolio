@@ -1,0 +1,37 @@
+html {
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+
+
+table td {
+    width:40px;
+    height:40px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.dark {
+    background-color: darkgray;
+}
+.light {
+    background-color: lightgray;
+}
+
+.selected {
+    outline: 2px solid yellow;
+}
+.mark {
+    background-color: lightsalmon;
+}

@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="generator" content="MediaWiki 1.15.1" />
+		<meta name="keywords" content="Draw own background" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="Sokoban Wiki (en)" />
+		<link rel="alternate" type="application/rss+xml" title="Sokoban Wiki RSS Feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="Sokoban Wiki Atom Feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom" />
+		<title>Draw own background - Sokoban Wiki</title>
+		<link rel="stylesheet" href="/wiki/skins/common/shared.css?207" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/wiki/skins/common/commonPrint.css?207" type="text/css" media="print" />
+		<link rel="stylesheet" href="/wiki/skins/monobook/main.css?207" type="text/css" media="screen" />
+		<!--[if lt IE 5.5000]><link rel="stylesheet" href="/wiki/skins/monobook/IE50Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 5.5000]><link rel="stylesheet" href="/wiki/skins/monobook/IE55Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="/wiki/skins/monobook/IE60Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="/wiki/skins/monobook/IE70Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<link rel="stylesheet" href="/wiki/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/wiki/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" media="print" />
+		<link rel="stylesheet" href="/wiki/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/wiki/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" type="text/css" />
+		<!--[if lt IE 7]><script type="text/javascript" src="/wiki/skins/common/IEFixes.js?207"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type= "text/javascript">/*<![CDATA[*/
+		var skin = "monobook";
+		var stylepath = "/wiki/skins";
+		var wgArticlePath = "/wiki/index.php?title=$1";
+		var wgScriptPath = "/wiki";
+		var wgScript = "/wiki/index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "http://sokobano.de";
+		var wgCanonicalNamespace = "";
+		var wgCanonicalSpecialPageName = false;
+		var wgNamespaceNumber = 0;
+		var wgPageName = "Draw_own_background";
+		var wgTitle = "Draw own background";
+		var wgAction = "view";
+		var wgArticleId = "1914";
+		var wgIsArticle = true;
+		var wgUserName = null;
+		var wgUserGroups = null;
+		var wgUserLanguage = "en";
+		var wgContentLanguage = "en";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = 4818;
+		var wgVersion = "1.15.1";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = ["", ""];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = [];
+		var wgRestrictionMove = [];
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="/wiki/skins/common/wikibits.js?207"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/wiki/skins/common/ajax.js?207"></script>
+		<script type="text/javascript" src="/wiki/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook"><!-- site js --></script>
+	</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Draw_own_background skin-monobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">Draw own background</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From Sokoban Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<p>Some users don't want a background graphic. It is possible to draw an own background. For instance with a gradient paint.<br /> In the middle there may be a light spot which should be a little bit bigger than the level graphics.<br />
+Example how it may look like (without the level graphics):<br />
+<a href="/wiki/index.php?title=File:JSoko-background_dynamically_painted.jpg" class="image" title="File:JSoko-background_dynamically_painted.jpg"><img alt="File:JSoko-background_dynamically_painted.jpg" src="/wiki/images/JSoko-background_dynamically_painted.jpg" width="1280" height="911" border="0" /></a>
+</p><p><br />
+For testing you can go to: File <i>MainBoardDisplay.java</i>, method: <i>newGraphicSizeCalculation</i>.<br />
+Put your own coding here:<br />
+</p>
+<pre>if (backgroundGraphic&nbsp;!= null &amp;&amp; (backgroundGraphic.getWidth(this)&nbsp;!= currentWindowWidth || backgroundGraphic.getHeight(this)&nbsp;!= currentWindowHeight))
+   backgroundGraphic = Utilities.getScaledInstance(backgroundGraphicOriginalSize, currentWindowWidth, currentWindowHeight);
+</pre>
+<pre>   <b>NEW CODING START (this is just example coding)</b>
+   Graphics2D g2 = backgroundGraphic.createGraphics();
+   Rectangle rect = new Rectangle(0, 0, backgroundGraphic.getWidth(), backgroundGraphic.getHeight());
+   JideSwingUtilities.fillGradient(g2, rect, Color.blue, Color.GREEN, true);
+   GradientPaint Acyclic;
+   GradientPaint Cyclic;
+   Cyclic = new GradientPaint (160F, 20F, Color.blue, 260F, 90F, Color.green, true);
+   g2.setPaint (Cyclic);
+   g2.fillRect (0, 0, backgroundGraphic.getWidth(), backgroundGraphic.getHeight());
+   
+   // Point2D center = new Point2D.Float(backgroundGraphic.getWidth()/2, backgroundGraphic.getHeight()/2);
+   // float radius = 400;
+   // float[] dist = {0.2f, 0.7f};
+   // Color[] colors = {Color.WHITE,  Color.BLUE};
+   // RadialGradientPaint rp = new RadialGradientPaint(center, radius, dist, colors);
+   // g2.setPaint(rp);
+   // Ellipse2D circle = new Ellipse2D.Double(0, 0, getWidth(), getHeight());
+   // g2.fill(circle);
+   <b>NEW CODING END</b>
+</pre>
+<pre>}
+</pre>
+<!-- 
+NewPP limit report
+Preprocessor node count: 1/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key phost62175-wiki_:pcache:idhash:1914-0!1!0!!en!2!edit=0 and timestamp 20180310002416 -->
+<div class="printfooter">
+Retrieved from "<a href="http://sokobano.de/wiki/index.php?title=Draw_own_background">http://sokobano.de/wiki/index.php?title=Draw_own_background</a>"</div>
+						<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="/wiki/index.php?title=Draw_own_background" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:Draw_own_background&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="/wiki/index.php?title=Draw_own_background&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="/wiki/index.php?title=Draw_own_background&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/wiki/index.php?title=Special:UserLogin&amp;returnto=Draw_own_background" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/wiki/images/basic/Wiki.png);" href="/wiki/index.php?title=Main_Page" title="Visit the main page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/wiki/index.php?title=Main_Page">Main Page</a></li>
+				<li id="n-currentevents"><a href="/wiki/index.php?title=Sokoban_Wiki:Current_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/wiki/index.php?title=Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="/wiki/index.php?title=Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="/wiki/index.php?title=Help:Contents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/wiki/index.php" id="searchform"><div>
+				<input type='hidden' name="title" value="Special:Search"/>
+				<input id="searchInput" name="search" type="text" title="Search Sokoban Wiki [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/wiki/index.php?title=Special:WhatLinksHere/Draw_own_background" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/wiki/index.php?title=Special:RecentChangesLinked/Draw_own_background" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/wiki/index.php?title=Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/wiki/index.php?title=Draw_own_background&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/wiki/index.php?title=Draw_own_background&amp;oldid=4818" title="Permanent link to this revision of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/wiki/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 21 March 2010, at 22:50.</li>
+					<li id="viewcount">This page has been accessed 11,875 times.</li>
+					<li id="privacy"><a href="/wiki/index.php?title=Sokoban_Wiki:Privacy_policy" title="Sokoban Wiki:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="/wiki/index.php?title=Sokoban_Wiki:About" title="Sokoban Wiki:About">About Sokoban Wiki</a></li>
+					<li id="disclaimer"><a href="/wiki/index.php?title=Sokoban_Wiki:General_disclaimer" title="Sokoban Wiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.182 secs. --></body></html>

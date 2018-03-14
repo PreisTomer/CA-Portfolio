@@ -1,0 +1,113 @@
+
+html{
+    background-image: url("img/background.png");
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    flex-flow: column wrap;
+}
+
+.selected {
+    color: goldenrod;
+}
+
+table {
+    margin: 0 auto;
+    background-image: url("img/table-back.jpg");
+    background-size:cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+table th {
+    text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+table td {
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em black;
+    background-color: black;
+    color: white;
+    font-style: oblique;
+    width: 370px;
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.user-message{
+    text-shadow: 1px 1px 2px red, 0 0 .5em black, 0 0 0.2em black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.timer{
+    text-align: center;
+    font-size: 1.5em;
+    color: red;
+    text-shadow: 1px 1px 2px red, 0 0 .5em black, 0 0 0.2em black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.reset {
+    background-image: url("img/reset.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-color: darkred;
+}
+
+.reset-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.easy {
+    width: 70px;
+    height: 50px;
+    background-color: green;
+    text-shadow: 1px 1px 2px red, 0 0 .5em black, 0 0 0.2em black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color:darkred;
+}
+
+.medium{
+    width: 70px;
+    height: 50px;
+    background-color: yellow;
+    text-shadow: 1px 1px 2px red, 0 0 .5em black, 0 0 0.2em black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color:darkred;
+}
+
+.hard {
+    width: 70px;
+    height: 50px;
+    background-color: red;
+    text-shadow: 1px 1px 2px red, 0 0 .5em black, 0 0 0.2em black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color:darkred;
+    
+}
+
+.difficulty{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}

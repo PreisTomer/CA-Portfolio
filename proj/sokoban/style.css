@@ -1,0 +1,75 @@
+
+html{
+    background-image: url("images/bg.jpg");
+}
+
+h1 {
+    text-align: center;
+}
+
+h5{
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+.myButtons {
+    margin: 10px;
+    text-align: center;
+    size: 3em;   
+}
+
+.reset {
+    text-align: center;
+}
+
+table {
+    width: 500px;
+    height: 400px;
+    border: 0px;
+    margin: 0 auto;
+}
+
+table td {
+    width: 15px;
+    height: 15px;
+
+}
+
+.empty{
+    background-image: url(images/empty.jpg);
+    background-size:contain;
+}
+
+.box{
+    background-image: url(images/box.jpg);
+    background-size:contain;
+}
+
+.player{
+    background-image: url(images/player.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+    
+}
+
+
+.wall{
+    background-image: url(images/wall.jpg);
+    background-size:contain;
+}
+
+.target{
+    background-image: url(images/target.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.box-on-target {
+    background-image: url(images/box-on-target.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

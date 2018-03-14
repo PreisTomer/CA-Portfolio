@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Touch-Nums Game</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <h1>The Touch Nums Game</h1>
+    <h4 class="user-message"> Click the first number! </h4>
+<div class = "table">
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th colspan="100%">Numbers</th>
+            </tr>
+        </thead>
+        <tbody class="tbl-numbers">
+        </tbody>
+    </table>
+</div>
+
+<div class="timer"></div>
+<div class="difficulty">
+<button class="easy" onclick = "resetGame(4)">Easy</button>
+<button class="medium" onclick = "resetGame(6)">Medium</button>
+<button class="hard"onclick = "resetGame(10)">Hard</button>
+</div>
+<div class="reset-container">
+<button class= "reset" onclick="resetGame()"></button>
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>

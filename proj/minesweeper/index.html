@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper - Tomer Preis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Mine Sweeper</h1>
+<h2> &#9786; </h2>
+<h5 class = "mineCount"></h5>
+<table border = "1" oncontextmenu = "return false;">
+    <tbody class = "gameBoard">
+
+    </tbody>
+</table>
+<div class = myButtons>
+    <button class = "easy" onclick = "initGame('Easy')">Easy</button>
+    <button class = "medium"  onclick = "initGame('Medium')">Medium</button>
+    <button class = "hard"  onclick = "initGame('Hard')" >Hard</button>
+</div>
+<h6>Time:</h6>
+<div id="timer"></div>
+<script src="main.js"></script>  
+<script src="utilities.js"></script>  
+</body>
+
+</html>

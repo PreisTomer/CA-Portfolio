@@ -1,0 +1,45 @@
+
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+html {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+body {
+    display:flex;
+    align-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.app-header {
+    background-color: lightsalmon;
+    text-align: center;
+    width: 40%;
+    border: 2px solid black;
+}
+
+.app-header img {
+   outline: 2px solid black;
+}
+
+.app-main {
+    background-color: lightblue;
+    text-align: center;
+    width: 600px;
+    border: 2px solid black;
+}
+
+button {
+    border: 3px solid red;
+   padding: 15px;
+    border-radius: 20%;
+    background-color: darkgray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sokoban- Tomer Preis</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Sokoban</h1>
+<h5 class = "movesCounter"></h5>
+        <table border="1" class="table">
+            <tbody class = "gameBoard">
+
+            </tbody>
+        </table>
+        <div class = myButtons>
+            <button class = "left" onclick = "move('left')">Left</button>
+            <button class = "right"  onclick = "move('right')">Right</button>
+            <button class = "up"  onclick = "move('up')">Up</button>
+            <button class = "down"  onclick = "move('down')">Down</button>
+        </div>
+        <div class = "reset">
+            <button  onclick = "resetGame()">Reset Game</button>
+        </div>
+        <script src="main.js"></script>
+    </body>
+
+</html>

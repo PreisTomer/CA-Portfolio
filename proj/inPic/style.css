@@ -1,0 +1,223 @@
+* {
+ box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("fonts/Toucon_.ttf");
+}
+
+@media only screen and (max-width: 480px) {
+    .questpic {
+        float:none;
+        width:400px;
+    }
+   .option{
+       width:100px;
+   }
+   .left{
+        float:none;
+        width:400px;
+   }
+   .right {
+        float:none;
+        width:400px;
+   }
+}
+
+html{
+    background: lightblue;
+}
+
+.main-content {
+    background-image: url("img/background.jpg");
+    width: 90%;
+    margin: 0 auto;
+    border-radius:7%;
+     box-shadow:5px 5px 5px 5px black;
+     padding: 40px;
+   
+}
+
+h1{
+    font-family: myfont, sans-serif;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center 0;
+    
+}
+
+h2{
+    font-family: myfont, sans-serif;
+    font-size: 20px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center 0;
+    padding-left: 60px;
+    line-height: 150px;
+   
+}
+
+.response {
+    text-align: center;
+    font-family: myfont;
+    font-size: 1.5rem;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    position: relative;
+    top: -25px;
+
+}
+
+.spchBubble {
+position:absolute;
+background-image: url("img/spch-bubble.png");
+background-repeat: no-repeat;
+background-size:300px;
+width: 400px;
+margin-left:200px;
+}
+
+.crab {
+    width: 300px;
+    height:250px;
+    background-image: url("img/question-crab.png");
+    background-size: 300px 250px;
+    position: relative;
+    margin-top:120px;
+}
+
+.left{
+    float:left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.right{
+    float:right;
+    margin-top: 125px;
+}
+
+.questpic{
+    width: 300px;
+    height:200px;
+    margin-right: 80px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow:5px 5px 5px 5px black;
+    position: relative;
+}
+
+.questpic img{
+    position: absolute;
+    z-index: 1;
+    top:0;
+}
+
+.bounce{
+    
+    animation-name: bounceIn;
+    animation-duration: 450ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes bounceIn{
+    0%{
+      opacity: 0;
+      transform: scale(0.3) translate3d(0,0,0);
+    }
+    50%{
+      opacity: 0.9;
+      transform: scale(1.1);
+    }
+    80%{
+      opacity: 1;
+      transform: scale(0.89);
+    }
+    100%{
+      opacity: 1;
+      transform: scale(1) translate3d(0,0,0);
+    }
+} 
+
+.questpic:hover .overlay {
+    opacity:0.5;
+}
+
+.overlay {
+    position: absolute;
+    text-align: center;
+    background-color:black;
+    top:0;
+    left:0;
+    width:100%;
+    opacity: 0;
+    height:100%;
+    font-size: 1rem;
+    font-family: myfont;
+    color:white;
+    padding-top:25%;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.questpic img{
+    width:100%;
+}
+
+
+.clear-both{
+    clear:both;
+}
+.option:hover {
+   color: lightblue;
+    transition: all .5s;
+}
+
+.option {
+text-align: center;
+font-size: 2rem;
+font-family: myfont;
+margin:0 auto;
+height:70px;
+width: 500px;
+background-color: darkgray;
+box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+background-size:cover;
+position: relative;
+margin-bottom: 40px;
+vertical-align: middle;
+line-height: 70px;
+}
+
+
+
+button{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-image: url("img/button.jpg");
+    background-size:cover;
+    float:right;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+button:hover {
+    transform: rotateZ(360deg);
+    transition: all .7s;
+}
+
+.wrong {
+    background-color: red;
+}
+
+.correct {
+    background-color: green;
+}
+
+span{
+    color:white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}

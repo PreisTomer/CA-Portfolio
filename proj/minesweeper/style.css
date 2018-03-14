@@ -1,0 +1,75 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+.gameBoard td {
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    background-image: url(images/minesweepertile.png);
+    background-size:contain;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.selected {
+    display: initial;
+}
+
+td span{
+display: none;
+}
+
+h6 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    padding: 0;
+    margin: 0;
+}
+
+#timer {
+    font-size: 1.2em;
+    background-color: grey;
+    border-radius: 45%;
+    border: 2px;
+    border-color:black;
+    font-family: sans-serif;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.myButtons{
+    margin: 10px;
+    text-align: center;
+    size: 1.5em;
+}
+
+h5 {
+    size: 1.5rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+button{
+    background-color:darkcyan;
+    color: darkblue;
+    font-size: 1.5rem;
+}

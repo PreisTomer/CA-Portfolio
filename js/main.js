@@ -9,7 +9,7 @@ var gProjs =
             desc: "This fun project was designed to show one can have with JavaScript. The computer decides on a number which the user can guess, if the user guesses wrong the computer will tell the user whether the number is too low or too high until the user guesses the correct number. fun!",
             url: "portfolio/thumb/guessNum.jpg",
             publishedAt: "March 2018",
-            labels: ["JavaScript", "Prompts"],
+            labels: ["JavaScript", " " + "Prompts"],
         },
         {
             id: "touchNums",
@@ -18,7 +18,7 @@ var gProjs =
             desc: "In this game the user must click on the right order of numbers in the shortest time possible, it's a race against the clock! with three difficulty levels time passes quickly when you are having fun.",
             url: "portfolio/thumb/touchNum.jpg",
             publishedAt: "March 2018",
-            labels: ["Matrixes", "Mouse Events"],
+            labels: ["Matrixes", " " + "Mouse Events"],
         },
 
         {
@@ -28,7 +28,7 @@ var gProjs =
             desc: "This fun game bounces a picture into the view of the user to grab attention. The user must guess what is in the picture by clicking one of two options. If he is correct a score is added, the button turns red or green according to the right or wrong answer and a message is displayed. A final score is displaed when the game is over. The question crab is waiting for you!",
             url: "portfolio/thumb/inPic.jpg",
             publishedAt: "March 2018",
-            labels: ["CSS", "Mouse events"],
+            labels: ["CSS", " " + "Mouse events"],
         },
 
         {
@@ -38,7 +38,7 @@ var gProjs =
             desc: "This well built game provides hours of fun! just like the windows classic, you must click on empty tiles that have no mines. If a mine is clicked the game is over, the user loses. The mines are surrounded by numbers that show the user if a mine is close. The user can right-click to create a flag over tiles that are suspected to be mines, if the user covers all the mines they win!",
             url: "portfolio/thumb/minesweeper.jpg",
             publishedAt: "March 2018",
-            labels: ["Matrixes", "Mouse events"],
+            labels: ["Matrixes"," " + "Mouse events"],
         },
 
         {
@@ -48,17 +48,17 @@ var gProjs =
             desc: "This game is based and named upon the classis Japanese Sokoban game. The user must travel the board with a Mario character to push boxes to their intended places. If the user gets stuck and cannot finish the level the game must be reset. The user wins when all the boxes are in their right place.",
             url: "portfolio/thumb/sokoban.jpg",
             publishedAt: "March 2018",
-            labels: ["Matrixes", "Keyboard events"],
+            labels: ["Matrixes", " " + "Keyboard events"],
         },
 
         {
             id: "balloons",
             name: "Pop The Balloons!",
-            title: "Classic Chess",
+            title: "Pop The Balloons!",
             desc: "Pop the Ballons! a simple fun game where balloons fly upwards and you must pop them in time, enjoy!.",
             url: "portfolio/thumb/pop-balloons.jpg",
             publishedAt: "March 2018",
-            labels: ["CSS", "Mouse events"],
+            labels: ["CSS", " " +"Mouse events"],
         },
 
     ];
@@ -73,6 +73,8 @@ $(document).ready(function () {
         var url = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${message}`;
         window.location = url;
     });
+
+    //Nav Bar toggle Contact - opens aside;
     $('.toggle-side-bar').on('click', function(e){
         $('.offcanvas-aside').toggleClass("offcanvas-aside-open");
         e.preventDefault();
@@ -118,10 +120,10 @@ function initPage(proj) {
                     <h2>${proj.name}</h2>
                     <p class="item-intro text-muted">${proj.title}</p>
                     <img class="img-fluid d-block mx-auto" src="img/portfolio/full/${proj.id}.jpg" alt="">
-                    <a class="btn btn-primary" href="proj/${proj.id}/index.html">
+                    <a class="btn btn-primary proj-link" href="proj/${proj.id}/index.html">
                     <i class="fa fa-play-circle"></i>
                         Link To Project</a>
-                    <p>${proj.desc}
+                    <p class="proj-desc">${proj.desc}
                     </p>
                     <ul class="list-inline">
                       <li>Published At: ${proj.publishedAt}</li>

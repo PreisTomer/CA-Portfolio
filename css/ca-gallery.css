@@ -97,7 +97,7 @@ body {
     z-index: 100000;
     background: lightblue;
     width: 30vw;
-    left: -30vw;
+    left: -35vw;
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -115,6 +115,7 @@ body {
 }
 .offcanvas-aside-open {
     left: 0;
+
 }
 #mainNav {
     background-color: #222222;
@@ -162,7 +163,7 @@ body {
         padding-bottom: 0px;
         -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
         -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-        /* transition: padding-top 0.3s, padding-bottom 0.3s; */
+        transition: padding-top 0.3s, padding-bottom 0.3s;
         border: none;
         /* background-color: transparent; */
     }
@@ -768,4 +769,10 @@ fieldset[disabled] .btn-xl:hover {
     color: rgb(76, 76, 219);
     background-color: white;
     box-shadow: 2px 2px 8px blue;
+}
+.proj-link{
+    padding:20px;
+}
+.proj-desc{
+    padding:20px;
 }
